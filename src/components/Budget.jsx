@@ -20,13 +20,13 @@ export const Budget = () => {
             <h2 className='text-white my-4'>Calculate budget with:</h2>
             <form className='text-white' onChange={onChange}>
                 <label className='mr-4'>Daily
-                    <input type="radio" value="Daily" name="incomeType" className='default:ring-5 checked:bg-black'></input>
+                    <input type="radio" value="Daily" name="incomeType" className='ml-2' ></input>
                 </label>
                 <label className='mx-4'>Weekly
-                    <input type="radio" value="Weekly" name="incomeType"></input>
+                    <input type="radio" value="Weekly" name="incomeType" className='ml-2'></input>
                 </label>
                 <label className='mx-4'>Monthly
-                    <input type="radio" value="Monthly" name="incomeType"></input>
+                    <input type="radio" value="Monthly" name="incomeType" className='ml-2'></input>
                 </label>
             </form>
             {showResults ? <BudgetForm incomeType={incomeType}/> : null}
