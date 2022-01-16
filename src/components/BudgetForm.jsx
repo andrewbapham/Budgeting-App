@@ -35,7 +35,24 @@ export const BudgetForm = (props) => {
                         <input type="text" id="expOther" className='text-black rounded'></input>
                     </label>
                 </details>
-
+                <details className='my-2'>
+                    <summary>{props.incomeType} Savings</summary>
+                    <label className='block my-5'>Emergency Fund: <br></br>
+                        <input type="text" id="savingsEmergency" className='text-black rounded'></input>
+                    </label>
+                    <label className='block my-5'>Retirement: <br></br>
+                        <input type="text" id="savingsRetirement" className='text-black rounded'></input>
+                    </label>
+                    <label className='block my-5'>Education: <br></br>
+                        <input type="text" id="savingsEducation" className='text-black rounded'></input>
+                    </label>
+                    <label className='block my-5'>Home Purchase: <br></br>
+                        <input type="text" id="savingsHome" className='text-black rounded'></input>
+                    </label>
+                    <label className='block my-5'>Other: <br></br>
+                        <input type="text" id="savingsOther" className='text-black rounded'></input>
+                    </label>
+                </details>
             </form>
         </div>
     )
