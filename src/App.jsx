@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App bg-mat-dark h-screen">
+      <div className="h-screen">
         <Header />
         <Routes>
           <Route exact path='/' element={<Landing/>}></Route>
